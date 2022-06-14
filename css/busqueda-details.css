@@ -1,0 +1,10 @@
+@import './filtrar.css';
+@import './cancion-column.css';
+@import './cancion-text.css';
+
+.busquedaDetails-container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    gap: 1rem;
+}

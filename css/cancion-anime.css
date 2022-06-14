@@ -1,0 +1,49 @@
+.cancionAnime {
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 5.4375rem;
+    padding-block-end: 1rem;
+}
+.cancionAnime-content {
+    text-align: center;
+    max-inline-size: 20.25rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cancionAnime-titulo >* {
+    font: var(--headLine1);
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+.cancionAnime-ditails >* {
+    font: var(--small);
+    gap: 2.7rem;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+.cancionAnime-button button {
+    font: var(--button);
+    color: var(--white);
+    background: var(--primary);
+    border-radius: 4.375rem;
+    border: none;
+    padding-inline-start: 32px;
+    padding-inline-end: 32px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.cancionAnime-button:hover button,
+.cancionAnime-button:focus-within button {
+    transform: scale(1.1);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

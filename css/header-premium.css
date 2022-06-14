@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 7rem;
+    padding-inline-end: 7rem;
+    block-size: 3rem;
+    background-color: var(--gray60);
+    color: var(--white);
+}
+.premium-header {
+    display: flex;
+    gap: 2rem;
+    font: var(--baseFont);
+    font-size: 1rem;
+}
+.premium-header span:hover {
+    cursor: pointer;
+    color: #13d760;
+}
+.premium-logo a {
+    font: var(--headLine1);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--white);
+}

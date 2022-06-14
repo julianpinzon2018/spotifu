@@ -1,0 +1,5 @@
+.playlistName-details .playlistName-playlist {
+    font:var(--baseFont);
+    font-size: .7rem;
+    color: var(--white);
+}

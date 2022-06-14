@@ -1,0 +1,30 @@
+.playlistB-rock {
+    inline-size: 24rem;
+    block-size: 13.75rem;
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: rgb(225, 17, 139);
+    position: relative;
+}
+
+.playlistB-rock-details {
+    display: flex;
+    padding: 1rem;
+    gap: .5rem;
+}
+.playlistB-details h3 {
+    font: var(--headLine1);
+}
+.playlistB-cover img {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-end: 0;
+    
+}
+.playlistB-title {
+    color: var(--white);
+    font: var(--baseFont);
+    margin: 0;
+}

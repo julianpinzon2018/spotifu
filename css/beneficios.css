@@ -1,0 +1,36 @@
+.beneficios {
+    padding-block-start: 3rem;
+    padding-block-end: 8rem;
+}
+.beneficios-content {
+    display: flex;
+    /* padding-inline-end: 4rem;
+    padding-inline-start: 4rem; */
+    padding-block-start: 2.5rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.beneficios-header {
+    font: var(--headLine2);
+    font-size: 1.7rem;
+    text-align: center;
+}
+.beneficios1 {
+    inline-size: 16rem;
+    text-align: center;
+}
+.beneficios1-title p {
+    font: var(--baseFontBold);
+    font-size: 1rem;
+}
+.beneficios1-title >* {
+    margin: 0;
+    padding: 0;
+}
+.beneficios1-title h3 {
+    font: var(--baseFont);
+    font-size: 1.3rem;
+    padding-block-start: 2.5rem;
+    padding-block-end: .5rem;
+    padding-block-end: .8rem;
+}

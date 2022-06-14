@@ -1,0 +1,62 @@
+.premium-main {
+    padding-inline-start: 7rem;
+    padding-inline-end: 7rem;
+    padding-block-start: 3rem;
+    padding-block-end: 2.5rem;
+    background-color: rgb(29, 117, 222);
+    color: var(--white);
+}
+.premium-mainTitle h1 {
+    font: var(--headLine1);
+    font-size: 2.5rem;
+}
+.premium-mainTitle p {
+    font: var(--baseFontBold);
+    font-size: 1.6rem;
+    padding-block-start: .5rem;
+}
+.premium-mainFotter {
+    font: small;
+    font-size: .8rem;
+}
+.premium-mainFotter .decoration {
+    text-decoration: underline;
+}
+.premium-mainFotter .decoration:hover {
+    cursor: pointer;
+} 
+.premium-mainButton {
+    display: flex;
+    gap: .5rem;
+}
+.premium-mainButton button {
+    inline-size: 9.5rem;
+    block-size: 3.3rem;
+    border-radius: 90px;
+    align-items: center;
+    font: var(--baseFont);
+    color: var(--white);
+    margin-block-end: 2.5rem;
+    margin-block-start: 1rem;
+}
+.premium-mainButton button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.premium-mainButton .planes:hover {
+    background-color: rgb(22, 102, 194);
+}
+.premium-mainButton .comenzar {
+    background: var(--gray40);
+    border: none;
+    cursor: pointer;
+}
+.premium-mainButton .planes {
+    background: transparent;
+    border: 2px solid var(--white);
+    background-color: rgb(23, 117, 222);
+    cursor: pointer;
+}

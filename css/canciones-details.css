@@ -1,0 +1,12 @@
+@import './filtrar.css';
+@import './cancion-column.css';
+@import './cancion-text.css';
+
+.cancionesDetails {
+    
+}
+.cancionesDetails-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}

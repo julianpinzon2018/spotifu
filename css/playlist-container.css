@@ -1,0 +1,8 @@
+@import './playlistB-latina.css';
+@import './playlistB-rock.css';
+@import './playlistB-pop.css';
+@import './playlistB-colombiano.css';
+
+.playlistB-container .playlistB-rock:hover, .playlistB-rock:focus-within {
+    cursor: pointer;
+}

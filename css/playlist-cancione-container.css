@@ -1,0 +1,50 @@
+.playlistCanciones {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlistCanciones-text {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-end: .4rem;
+    padding-block-start: .4rem;
+    border-radius: 4px;
+    flex: 1;
+    align-items: center;
+    transition: .3s background;
+}
+.playlistCanciones-text:hover, .cancionesText:focus-within {
+    background: rgba(255,255,255, .1);
+}
+.playList-cancionesText-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.playList-cancionesText-titulo .playList-cancionesSmall {
+    display: flex;
+    flex-direction: column;
+}
+.playList-cancionesSmall .cancionesSmall-noDecoration {
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    font: var(--baseFont);
+}
+.playList-cancionesSmall .cancionesSmall-decoration {
+    margin: 0;
+    padding: 0;
+    font: var(--baseFontBold);
+}
+.playList-cancionesSmall .cancionesSmall-decoration:hover {
+    color: var(--white);
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.playList-cancionesText-album:hover {
+    color: var(--white);
+    cursor: pointer;
+    text-decoration-line: underline;   
+}

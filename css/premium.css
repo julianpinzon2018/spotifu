@@ -1,0 +1,29 @@
+@import './sticky-segundo.css';
+@import './header-segundo.css';
+@import './cancion-anime.css';
+@import './busqueda-details.css';
+@import './font2.css';
+
+.premium {
+    block-size: calc(100vh - var(--bottonSize));
+    overflow: auto;
+    flex: 1;
+    min-block-size: var(--minBlockSize);
+    background: gray50;
+}
+.premiumBad-music {
+    display: flex;
+    gap: 1.5rem;
+    padding-inline-start: .7rem;
+    padding-block-start: 1rem;
+}
+.premiumBad-regge {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.premiumBad-image {
+    padding-block-end: .3rem;
+    padding-block-start: .3rem;
+
+}

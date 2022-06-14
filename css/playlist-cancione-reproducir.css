@@ -1,0 +1,26 @@
+.playlistCanciones-reproducir button {
+    background: var(--primary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
+.playlistCanciones-reproducir button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    cursor: pointer;
+}
+.playlistCanciones-reproducir .icon-play {
+    position: relative;
+    inset-block-start: 1px;
+    inset-inline-start: 1.5px;
+    font-size: 1rem;
+    color: var(--white);
+}

@@ -1,0 +1,119 @@
+.paylistA-musicContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.paylistA-header h2 {
+    font: var(--headLine2);
+    font: var(--headLine2);
+    color: var(--white);
+    padding-block-start: 0.9rem;
+    padding-block-end: .8rem;
+    margin: 0;
+}
+.paylistA-music {
+    display: flex;
+    gap: 1.7rem;
+    justify-content: space-between;
+}
+.paylistA-musicA {
+    block-size: 5rem;
+    inline-size: 5rem;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 11.875rem;
+    width: 11.875rem;
+    position: relative;
+}
+.paylistA-musicA-1 {
+    background-color: rgb(39, 133, 106);
+    height: 100%; 
+}
+.paylistA-musicA-2 {
+    background-color: rgb(30, 50, 100);
+    height: 100%; 
+}
+.paylistA-musicA-3 {
+    background-color: rgb(141, 103, 171);
+    height: 100%; 
+}
+.paylistA-musicA-4 {
+    background-color: rgb(232, 17, 91);
+    height: 100%; 
+}
+.paylistA-musicA-5 {
+    background-color: rgb(141, 103, 171);
+    height: 100%; 
+}
+.paylistA-musicA .paylistA-musicA-title h3 {
+    font: var(--headLine2);
+    padding: 1rem;
+    margin: 0;
+    color: var(--white);
+}
+.paylistA-musicA .paylistA-musicA-cover img {
+    position: absolute;
+    inset-block-end: -8px;
+    inset-inline-end: -23px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+}
+.paylistA-musicA:hover {
+    cursor: pointer;
+}
+
+
+/* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%); */
+
+/* .playlistList-container >*:hover, .playlistB-rock:focus-within {
+    cursor: pointer;
+}
+.playlistList-container >* {
+    inline-size: 24rem;
+    block-size: 13.75rem;
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+}
+.playlistList-container .playlistB-details {
+    display: flex;
+    padding: 1rem;
+    gap: .5rem;
+}
+.playlistList-container .playlistB-details h3 {
+    font: var(--headLine1);
+    font-size: 2.4rem;
+}
+.playlistList-container .playlistB-cover img {
+    transform: rotate(25deg);
+    position: absolute;
+    inset-block-end: -8px;
+    inset-inline-end: -23px;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+}
+.playlistList-container .playlistB-title {
+    color: var(--white);
+    font: var(--baseFont);
+    margin: 0;
+}
+.playlistB-latina {
+    background-color: rgb(225, 17, 139);
+}
+.playlistB-rock {
+    background-color: rgb(230, 30, 50);
+}
+.playlistB-pop {
+    background-color: rgb(141, 103, 171);
+}
+.playlistB-colombiano {
+    background-color: rgb(180, 155, 200);
+} */

@@ -1,0 +1,6 @@
+.playlistCanciones-music {
+    display: flex;
+    gap: 1.5rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+}

@@ -1,0 +1,6 @@
+.playlistName-details .playlistName-title h1{
+    margin: 0;
+    font: var(--headLine1);
+    color: var(--white);
+    font-size: 3rem;
+}

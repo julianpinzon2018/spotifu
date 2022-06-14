@@ -1,0 +1,28 @@
+.playlistName-artist {
+    display: flex;
+    gap: 1rem;
+}
+.playlistName-artist .playlistName-artistTitle {
+    color: var(--white);
+    font: var(--baseFont);
+    padding-inline-end: .8rem;
+}
+.playlistName-artist .playlistName-artistTitle:hover {  
+    cursor: pointer;
+    text-decoration: underline;
+}
+.playlistName-artist .playlistName-artistLikes {
+    color: var(--white);
+    font: var(--baseFontBold);
+    display: list-item;
+    padding-inline-end: .8rem;
+}
+.playlistName-artist .playlistName-artistCantidad {
+    color: var(--white);
+    font: var(--baseFontBold);
+    display: list-item;
+}
+.playlistName-artist .playlistName-artistTime {
+    font: var(--baseFontBold);
+    color: var(--gray10);
+}

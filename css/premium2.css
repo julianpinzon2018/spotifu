@@ -1,0 +1,68 @@
+@import './icons.css';
+@import './font.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './sidebar.css';
+@import './ellipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+@import './paylist.css';
+@import './premium2.css';
+@import './header-premium.css';
+@import './premium-main.css';
+@import './beneficios.css';
+@import './premium-planes.css';
+@import './premium-footer.css';
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    font-size: 16px;
+    --primary: #00B050;
+    --white: #FFFFFF;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --basefontFamily: Avenir, Helvetica, sans-serif;
+    --headLine1: bold 2rem/normal var(--basefontFamily);
+    --headLine2: bold 1.5rem/1.75rem var(--basefontFamily);
+    --baseFontBold : normal .875rem/1.375rem var(--basefontFamily);
+    --baseFont: bold .875rem/1.375rem var(--basefontFamily);
+    --button: bold .875rem/1rem var(--basefontFamily);
+    --small: normal .75em/normal var(--basefontFamily);
+}
+
+@media screen and (max-width: 1367px) {
+    :root {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
+}
+body {
+    margin: 0;
+}

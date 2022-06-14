@@ -1,0 +1,16 @@
+@import './playlist-name-artist.css';
+@import './playlist-name-title.css';
+@import './playlist-name-playlist.css';
+
+
+
+.playlistName {
+    display: flex;
+    align-items: flex-end;
+    padding-block-end: .6rem;
+}
+.playlistName-details {
+    display: flex;
+    flex-direction: column;
+}
+

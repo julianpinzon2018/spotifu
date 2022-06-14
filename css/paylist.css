@@ -1,0 +1,28 @@
+.paylist {
+    gap: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+.paylistContainer {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column; 
+}
+.paylistMusic {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.paylist-top {
+    display: flex;
+    justify-content: space-between;
+    padding-block-start: 1.2rem;
+}
+.paylist-topTitle {
+    font: var(--headLine2);
+    color: var(--white);
+}
+.navegacion:hover {
+    cursor: pointer;
+    color: var(--white);
+}
