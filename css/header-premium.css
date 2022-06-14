@@ -1,4 +1,4 @@
-.header {
+.premium2-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,18 +7,19 @@
     block-size: 3rem;
     background-color: var(--gray60);
     color: var(--white);
+    block-size: 5rem;
 }
-.premium-header {
+.premium2-header {
     display: flex;
     gap: 2rem;
     font: var(--baseFont);
     font-size: 1rem;
 }
-.premium-header span:hover {
+.premium2-header span:hover {
     cursor: pointer;
     color: #13d760;
 }
-.premium-logo a {
+.premium2-logo a {
     font: var(--headLine1);
     margin: 0;
     padding: 0;
