@@ -44,6 +44,7 @@
     --small: normal .75em/normal var(--basefontFamily);
 }
 
+
 @media screen and (max-width: 1367px) {
     :root {
         font-size: 16px;

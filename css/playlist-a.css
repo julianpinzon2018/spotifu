@@ -1,11 +1,13 @@
 .playlistA {
-    inline-size: 13em;
+    max-inline-size: 13em;
+    min-inline-size: 8em;
     padding: 1rem;
     border-radius: .25rem;
     background: var(--gray40);
     box-sizing: border-box;
     transition: .3s background;
-    flex-shrink: 0;
+    height: auto;
+
 }
 .playlistA:hover, .playlistA:focus-within {
     cursor: pointer;
@@ -41,6 +43,7 @@
     font: var(--basefontBold);
     color: var(--white);
     margin: 0;
+    padding-block-start: .5rem;
 }
 .playlistA-description {
     font: var(--basefontBold);
