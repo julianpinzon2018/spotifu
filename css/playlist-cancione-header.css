@@ -10,16 +10,22 @@
     padding-block-end: .4rem;
 }
 .playlistCanciones-headerTitle {
-    gap: 1.5rem;
+    gap: 4rem;
     display: flex;
+    padding-inline-end: 2rem;
+
 }
-/* .playlistCanciones-headerFecha {
-    padding-inline-end: 6.5rem;
+.playlistCanciones-headerFecha {
+    padding-inline-start: 1.5rem;
 }
 .playlistCanciones-headerAlbum {
-    padding-inline-start: 3.5rem;
-} */
+    padding-inline-end: 5rem;
+    padding-inline-start: 1.3rem;
+
+}
 .playlistCanciones-headerTime {
     display: flex;
     align-items: center;
+    padding-inline-end: .2rem;
+
 }

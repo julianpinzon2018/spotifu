@@ -14,6 +14,7 @@
     flex: 1;
     align-items: center;
     transition: .3s background;
+    counter-increment: playList-cancionesText-titulo;
 }
 .playlistCanciones-text:hover, .cancionesText:focus-within {
     background: rgba(255,255,255, .1);
@@ -22,6 +23,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.playList-cancionesText-titulo::before {
+    content: counter(playList-cancionesText-titulo);
 }
 .playList-cancionesText-titulo .playList-cancionesSmall {
     display: flex;
