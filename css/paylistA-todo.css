@@ -24,8 +24,9 @@
     position: relative;
     inline-size: 12rem;
     min-inline-size: 2rem;
-    block-size: 12rem;
+    block-size: auto;
     min-block-size: 2rem;
+    aspect-ratio: 1 / 1;
 }
 .paylistA-musicA-1 {
     background-color: rgb(39, 133, 106);
