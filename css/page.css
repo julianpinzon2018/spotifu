@@ -8,11 +8,15 @@
     padding-inline-start: 2.3em;
     padding-inline-end: 2.3em;
     padding-block-end: 2em;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .page-block {
     display: flex;
     flex-direction: column;
     gap: .8rem;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .page .header {
   margin: 0;

@@ -136,7 +136,7 @@ hr {
     margin: 0;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
     .premiumPlanes {
         text-align: center;
     }

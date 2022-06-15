@@ -29,18 +29,3 @@
     --small: normal .75em/normal var(--basefontFamily);
 }
 
-@media screen and (max-width: 1367px) {
-    :root {
-        font-size: 16px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    :root {
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 768px) {
-    :root {
-        font-size: 12px;
-    }
-}

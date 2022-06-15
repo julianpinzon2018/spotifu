@@ -5,27 +5,22 @@
 }
 .paylistA-header h2 {
     font: var(--headLine2);
-    font: var(--headLine2);
     color: var(--white);
     padding-block-start: 0.9rem;
     padding-block-end: .8rem;
     margin: 0;
 }
 .paylistA-music {
-    display: flex;
+    display: grid;
     gap: 1.7rem;
-    justify-content: space-between;
-    max-width: 100%;
-    height: auto;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 11rem));
+    grid-template-rows: repeat(auto-fill, minmax(6rem, 11rem));
 }
 .paylistA-musicA {
+    cursor: pointer;
     overflow: hidden;
     border-radius: 8px;
     position: relative;
-    inline-size: 12rem;
-    min-inline-size: 2rem;
-    block-size: auto;
-    min-block-size: 2rem;
     aspect-ratio: 1 / 1;
 }
 .paylistA-musicA-1 {
@@ -50,7 +45,6 @@
 }
 .paylistA-musicA .paylistA-musicA-title {
     overflow: hidden;
-
 }
 .paylistA-musicA .paylistA-musicA-title h3 {
     font: var(--headLine2);
@@ -58,18 +52,21 @@
     margin: 0;
     color: var(--white);
 }
-.paylistA-musicA .paylistA-musicA-cover img {
+.paylistA-musicA-cover {
     position: absolute;
     inset-block-end: -8px;
     inset-inline-end: -23px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
     transform: rotate(25deg);
     -webkit-transform: rotate(25deg);
     -moz-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
-}
-.paylistA-musicA:hover {
+    max-width: 100px;
     cursor: pointer;
+}
+.paylistA-musicA .paylistA-musicA-cover img {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    max-inline-size: 100%;
+
 }
 

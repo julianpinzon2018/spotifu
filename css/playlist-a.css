@@ -1,6 +1,10 @@
 .playlistA {
-    max-inline-size: 13em;
-    min-inline-size: 8em;
+    max-inline-size: 11rem;
+    min-inline-size: 9rem;
+    max-block-size: 15rem;
+    min-block-size: 13rem;
+    inline-size: 100%;
+    block-size: 100%;
     padding: 1rem;
     border-radius: .25rem;
     background: var(--gray40);

@@ -10,9 +10,9 @@
 }
 .paylistMusic {
     display: flex;
-    max-width: 100%;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 1.7rem;
+   
+    
 }
 .paylist-top {
     display: flex;
