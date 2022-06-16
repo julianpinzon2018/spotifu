@@ -13,8 +13,8 @@
 .paylistA-music {
     display: grid;
     gap: 1.7rem;
-    grid-template-columns: repeat(auto-fill, minmax(6rem, 11rem));
-    grid-template-rows: repeat(auto-fill, minmax(6rem, 11rem));
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 11.1rem));
+    grid-template-rows: repeat(auto-fill, minmax(6rem, 11.1rem));
 }
 .paylistA-musicA {
     cursor: pointer;
