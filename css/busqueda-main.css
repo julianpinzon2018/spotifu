@@ -4,9 +4,6 @@
 @import './busqueda-details.css';
 
 .busqueda-main {
-    block-size: calc(100vh - var(--bottonSize));
-    overflow: auto;
-    flex: 1;
-    min-block-size: var(--minBlockSize);
     background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%), url(../images/bad.png);
+    background-size: cover;
 }
