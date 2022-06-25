@@ -11,6 +11,7 @@
     overflow-y: auto;
 }
 .page-block {
+  overflow-x: hidden;
     display: flex;
     flex-direction: column;
     gap: .8rem;

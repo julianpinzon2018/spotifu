@@ -6,7 +6,8 @@
 .paylistContainer {
     gap: 1rem;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    overflow-x: auto;
 }
 .paylistMusic {
     display: flex;
