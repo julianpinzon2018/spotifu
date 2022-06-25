@@ -3,14 +3,14 @@
     flex-direction: column;
 }
 .cancionesText {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 5fr 4fr 3fr 1fr 30px;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
     border-radius: 4px;
-    flex: 1;
     align-items: center;
     transition: .3s background;
+    gap: 1rem;
 }
 .cancionesText:hover, .cancionesText:focus-within {
     background: rgba(255,255,255, .1);

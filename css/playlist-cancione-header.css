@@ -1,31 +1,15 @@
 .playlistCanciones-header {
-    display: flex;
-    font: var(--baseFontBold);
-    justify-content: space-between;
-    padding-inline-start: 1.5rem;
-    padding-inline-end: 1.5rem;
-    color: var(--gray10);
+    display: grid;
     align-items: center;
+    grid-template-columns: 5fr 4fr 3fr 30px;
+    font: var(--baseFontBold);
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    color: var(--gray10);
     padding-block-start: 1rem;
     padding-block-end: .4rem;
 }
 .playlistCanciones-headerTitle {
-    gap: 4rem;
     display: flex;
-    padding-inline-end: 2rem;
-
-}
-.playlistCanciones-headerFecha {
-    padding-inline-start: 1.5rem;
-}
-.playlistCanciones-headerAlbum {
-    padding-inline-end: 5rem;
-    padding-inline-start: 1.3rem;
-
-}
-.playlistCanciones-headerTime {
-    display: flex;
-    align-items: center;
-    padding-inline-end: .2rem;
-
+    gap: 6.5rem;    
 }

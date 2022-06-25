@@ -4,17 +4,20 @@
 }
 
 .playlistCanciones-text {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 5fr 4fr 3fr 30px;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
     padding-block-end: .4rem;
     padding-block-start: .4rem;
     border-radius: 4px;
-    flex: 1;
-    align-items: center;
+    */align-items: center;
     transition: .3s background;
     counter-increment: playList-cancionesText-titulo;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 .playlistCanciones-text:hover, .cancionesText:focus-within {
     background: rgba(255,255,255, .1);
@@ -22,7 +25,7 @@
 .playList-cancionesText-titulo {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 .playList-cancionesText-titulo::before {
     content: counter(playList-cancionesText-titulo);
@@ -31,6 +34,10 @@
     display: flex;
     flex-direction: column;
 }
+/* .playList-cancionesText-time {
+    display: flex;
+    justify-content: flex-end;
+} */
 .playList-cancionesSmall .cancionesSmall-noDecoration {
     color: var(--white);
     margin: 0;
