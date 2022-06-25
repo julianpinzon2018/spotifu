@@ -7,13 +7,11 @@
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    overflow-x: auto;
 }
 .paylistMusic {
     display: flex;
     gap: 1.7rem;
-   
-    
+    overflow-x: auto;
 }
 .paylist-top {
     display: flex;
