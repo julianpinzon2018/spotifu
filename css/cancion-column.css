@@ -1,6 +1,6 @@
 .cancionColumn {
     display: grid;
-    grid-template-columns: 5fr 4fr 3fr 1fr 30px;
+    grid-template-columns: 5fr 4fr 3fr 1.5fr 30px;
     margin-block-start: 1rem;
     padding-block-end: .5em;
     font: var(--basefontBold);
